@@ -2,8 +2,15 @@ body {
 
 font-family: Arial, sans-serif;
 margin: 0;
-background-color: #f4f4f4;
+background: linear-gradient(to bottom, #f4f6f7, #eaecee);
 line-height: 1.6;
+
+}
+
+main{
+
+max-width: 900px;
+margin: auto;
 
 }
 
@@ -58,9 +65,10 @@ text-decoration: underline;
 section {
 
 background: white;
-margin: 20px;
-padding: 20px;
-border-radius: 5px;
+margin: 30px 0;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 
 }
 
@@ -68,10 +76,11 @@ border-radius: 5px;
 section img {
 
 width: 100%;
-max-width: 600px;
+height: 350px;
+object-fit: cover;
 display: block;
-margin: 15px auto;
-border-radius: 5px;
+margin: 20px auto;
+border-radius: 8px;
 
 }
 
@@ -79,6 +88,9 @@ border-radius: 5px;
 h2 {
 
 color: #2c3e50;
+margin-bottom: 15px;
+border-left: 5px solid #3498db;
+padding-left: 10px;
 
 }
 
